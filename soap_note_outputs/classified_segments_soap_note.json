@@ -1,0 +1,84 @@
+{
+  "schema_version": "v1",
+  "note_type": "soap_note",
+  "encounter": {
+    "encounter_id": "classified_segments",
+    "date": null,
+    "clinician": "doctor",
+    "patient": "patient"
+  },
+  "subjective": {
+    "chief_complaint": null,
+    "hpi_summary": "Patient reports feeling excessively tired and exhausted even after sleeping.",
+    "medications_mentioned": [],
+    "allergies_mentioned": [],
+    "relevant_history": [],
+    "patient_reported_symptoms": [
+      "excessive tiredness",
+      "exhaustion"
+    ],
+    "patient_denied_symptoms": []
+  },
+  "objective": {
+    "vitals": {
+      "bp": null,
+      "hr": null,
+      "temp": null,
+      "rr": null,
+      "spo2": null,
+      "weight": null
+    },
+    "exam_findings": [],
+    "tests_or_results_discussed": [
+      "blood tests"
+    ]
+  },
+  "assessment": {
+    "clinician_impression": [
+      "Patient may have a lifestyle-related issue"
+    ],
+    "problems_addressed": [
+      "Excessive tiredness and exhaustion"
+    ]
+  },
+  "plan": {
+    "medications_started_or_changed": [],
+    "tests_ordered": [
+      "blood tests"
+    ],
+    "referrals": [],
+    "patient_instructions": [],
+    "follow_up": null,
+    "return_precautions": []
+  },
+  "evidence": {
+    "subjective_segment_ids": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8",
+      "11"
+    ],
+    "objective_segment_ids": [],
+    "assessment_segment_ids": [
+      "9",
+      "17"
+    ],
+    "plan_segment_ids": [
+      "18",
+      "19"
+    ]
+  },
+  "quality": {
+    "missing_sections": [
+      "objective.vitals"
+    ],
+    "uncertain_fields": [
+      "subjective.hpi_summary",
+      "patient_reported_symptoms.3",
+      "plan.follow_up"
+    ],
+    "notes": null
+  }
+}

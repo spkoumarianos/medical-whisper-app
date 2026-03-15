@@ -1,0 +1,222 @@
+{
+  "source_json_file": "transcription_outputs/doctor_patient_example_segments.json",
+  "audio_path": "doctor_patient_example.wav",
+  "language": "en",
+  "transcript_model": "medium.en",
+  "classifier_backend": "ollama",
+  "classifier_model": "mistral:7b",
+  "context_back": 1,
+  "context_forward": 1,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.8,
+      "text": "Okay, I'm the doctor.",
+      "predicted_role": "doctor",
+      "confidence": 1.0,
+      "short_reason": "The speaker explicitly states 'I'm the doctor' in the context.",
+      "context_text_used": "[TARGET id=0 start=0.00 end=4.80] Okay, I'm the doctor.\n[NEXT id=1 start=4.80 end=5.84] Good morning."
+    },
+    {
+      "id": 1,
+      "start": 4.8,
+      "end": 5.84,
+      "text": "Good morning.",
+      "predicted_role": "doctor",
+      "confidence": 1.0,
+      "short_reason": "The doctor typically initiates the conversation and addresses the patient.",
+      "context_text_used": "[PREV id=0 start=0.00 end=4.80] Okay, I'm the doctor.\n[TARGET id=1 start=4.80 end=5.84] Good morning.\n[NEXT id=2 start=5.84 end=7.32] Can you tell me what brings you in today?"
+    },
+    {
+      "id": 2,
+      "start": 5.84,
+      "end": 7.32,
+      "text": "Can you tell me what brings you in today?",
+      "predicted_role": "doctor",
+      "confidence": 1.0,
+      "short_reason": "Asking a question about the patient's condition",
+      "context_text_used": "[PREV id=1 start=4.80 end=5.84] Good morning.\n[TARGET id=2 start=5.84 end=7.32] Can you tell me what brings you in today?\n[NEXT id=3 start=7.32 end=11.84] Uh, yeah, I've been refilling really tired lately, like even after sleeping I wake up"
+    },
+    {
+      "id": 3,
+      "start": 7.32,
+      "end": 11.84,
+      "text": "Uh, yeah, I've been refilling really tired lately, like even after sleeping I wake up",
+      "predicted_role": "patient",
+      "confidence": 0.95,
+      "short_reason": "Patient describes symptoms of fatigue and exhaustion",
+      "context_text_used": "[PREV id=2 start=5.84 end=7.32] Can you tell me what brings you in today?\n[TARGET id=3 start=7.32 end=11.84] Uh, yeah, I've been refilling really tired lately, like even after sleeping I wake up\n[NEXT id=4 start=11.84 end=12.84] exhausted."
+    },
+    {
+      "id": 4,
+      "start": 11.84,
+      "end": 12.84,
+      "text": "exhausted.",
+      "predicted_role": "patient",
+      "confidence": 0.9,
+      "short_reason": "The patient is describing a symptom (exhaustion) after sleeping, which is typical of the patient's speech.",
+      "context_text_used": "[PREV id=3 start=7.32 end=11.84] Uh, yeah, I've been refilling really tired lately, like even after sleeping I wake up\n[TARGET id=4 start=11.84 end=12.84] exhausted.\n[NEXT id=5 start=12.84 end=13.84] I see."
+    },
+    {
+      "id": 5,
+      "start": 12.84,
+      "end": 13.84,
+      "text": "I see.",
+      "predicted_role": "doctor",
+      "confidence": 0.95,
+      "short_reason": "Doctor's response is typically reassuring and does not usually involve new questions about symptoms.",
+      "context_text_used": "[PREV id=4 start=11.84 end=12.84] exhausted.\n[TARGET id=5 start=12.84 end=13.84] I see.\n[NEXT id=6 start=13.84 end=17.48] Have you noticed any other symptoms like headaches, dizziness, or shortness of breath?"
+    },
+    {
+      "id": 6,
+      "start": 13.84,
+      "end": 17.48,
+      "text": "Have you noticed any other symptoms like headaches, dizziness, or shortness of breath?",
+      "predicted_role": "doctor",
+      "confidence": 0.95,
+      "short_reason": "Asking about additional symptoms",
+      "context_text_used": "[PREV id=5 start=12.84 end=13.84] I see.\n[TARGET id=6 start=13.84 end=17.48] Have you noticed any other symptoms like headaches, dizziness, or shortness of breath?\n[NEXT id=7 start=17.48 end=20.96] Sometimes I get this weird chest tightness, but I'm not sure if it's stress or something"
+    },
+    {
+      "id": 7,
+      "start": 17.48,
+      "end": 20.96,
+      "text": "Sometimes I get this weird chest tightness, but I'm not sure if it's stress or something",
+      "predicted_role": "patient",
+      "confidence": 0.95,
+      "short_reason": "Patient describes personal symptoms",
+      "context_text_used": "[PREV id=6 start=13.84 end=17.48] Have you noticed any other symptoms like headaches, dizziness, or shortness of breath?\n[TARGET id=7 start=17.48 end=20.96] Sometimes I get this weird chest tightness, but I'm not sure if it's stress or something\n[NEXT id=8 start=20.96 end=21.96] else."
+    },
+    {
+      "id": 8,
+      "start": 20.96,
+      "end": 21.96,
+      "text": "else.",
+      "predicted_role": "patient",
+      "confidence": 0.95,
+      "short_reason": "The response 'else' is a continuation of the patient's description of symptoms.",
+      "context_text_used": "[PREV id=7 start=17.48 end=20.96] Sometimes I get this weird chest tightness, but I'm not sure if it's stress or something\n[TARGET id=8 start=20.96 end=21.96] else.\n[NEXT id=9 start=21.96 end=22.96] Okay, that's important."
+    },
+    {
+      "id": 9,
+      "start": 21.96,
+      "end": 22.96,
+      "text": "Okay, that's important.",
+      "predicted_role": "doctor",
+      "confidence": 0.95,
+      "short_reason": "Doctor typically provides reassurance and asks follow-up questions.",
+      "context_text_used": "[PREV id=8 start=20.96 end=21.96] else.\n[TARGET id=9 start=21.96 end=22.96] Okay, that's important.\n[NEXT id=10 start=22.96 end=23.96] Do you smoke, drink, or exercise regularly?"
+    },
+    {
+      "id": 10,
+      "start": 22.96,
+      "end": 23.96,
+      "text": "Do you smoke, drink, or exercise regularly?",
+      "predicted_role": "doctor",
+      "confidence": 1.0,
+      "short_reason": "Asking about health habits is typically a doctor's question.",
+      "context_text_used": "[PREV id=9 start=21.96 end=22.96] Okay, that's important.\n[TARGET id=10 start=22.96 end=23.96] Do you smoke, drink, or exercise regularly?\n[NEXT id=11 start=23.96 end=29.00] I don't smoke, but I do drink on weekends, and honestly, I haven't exercised in months."
+    },
+    {
+      "id": 11,
+      "start": 23.96,
+      "end": 29.0,
+      "text": "I don't smoke, but I do drink on weekends, and honestly, I haven't exercised in months.",
+      "predicted_role": "patient",
+      "confidence": 0.95,
+      "short_reason": "The patient provides personal habits and exercise history in response to a question from the doctor.",
+      "context_text_used": "[PREV id=10 start=22.96 end=23.96] Do you smoke, drink, or exercise regularly?\n[TARGET id=11 start=23.96 end=29.00] I don't smoke, but I do drink on weekends, and honestly, I haven't exercised in months.\n[NEXT id=12 start=29.00 end=30.20] Thanks for being honest."
+    },
+    {
+      "id": 12,
+      "start": 29.0,
+      "end": 30.2,
+      "text": "Thanks for being honest.",
+      "predicted_role": "doctor",
+      "confidence": 0.95,
+      "short_reason": "Response to patient's disclosure about lifestyle habits",
+      "context_text_used": "[PREV id=11 start=23.96 end=29.00] I don't smoke, but I do drink on weekends, and honestly, I haven't exercised in months.\n[TARGET id=12 start=29.00 end=30.20] Thanks for being honest.\n[NEXT id=13 start=30.20 end=32.84] Are you currently taking medications or supplements?"
+    },
+    {
+      "id": 13,
+      "start": 30.2,
+      "end": 32.84,
+      "text": "Are you currently taking medications or supplements?",
+      "predicted_role": "doctor",
+      "confidence": 0.95,
+      "short_reason": "Asking about medications is typically a doctor's question.",
+      "context_text_used": "[PREV id=12 start=29.00 end=30.20] Thanks for being honest.\n[TARGET id=13 start=30.20 end=32.84] Are you currently taking medications or supplements?\n[NEXT id=14 start=32.84 end=34.84] Just some over-the-counter vitamins."
+    },
+    {
+      "id": 14,
+      "start": 32.84,
+      "end": 34.84,
+      "text": "Just some over-the-counter vitamins.",
+      "predicted_role": "patient",
+      "confidence": 0.95,
+      "short_reason": "The patient provides information about their current medication (over-the-counter vitamins), which is a common topic initiated by doctors.",
+      "context_text_used": "[PREV id=13 start=30.20 end=32.84] Are you currently taking medications or supplements?\n[TARGET id=14 start=32.84 end=34.84] Just some over-the-counter vitamins.\n[NEXT id=15 start=34.84 end=36.76] Alright, cool."
+    },
+    {
+      "id": 15,
+      "start": 34.84,
+      "end": 36.76,
+      "text": "Alright, cool.",
+      "predicted_role": "patient",
+      "confidence": 0.95,
+      "short_reason": "The response 'Alright, cool.' is typically a casual affirmation, which aligns with the patient's conversational style.",
+      "context_text_used": "[PREV id=14 start=32.84 end=34.84] Just some over-the-counter vitamins.\n[TARGET id=15 start=34.84 end=36.76] Alright, cool.\n[NEXT id=16 start=36.76 end=40.28] From what?"
+    },
+    {
+      "id": 16,
+      "start": 36.76,
+      "end": 40.28,
+      "text": "From what?",
+      "predicted_role": "doctor",
+      "confidence": 0.95,
+      "short_reason": "Doctors often ask for more information or clarification.",
+      "context_text_used": "[PREV id=15 start=34.84 end=36.76] Alright, cool.\n[TARGET id=16 start=36.76 end=40.28] From what?\n[NEXT id=17 start=40.28 end=44.08] You shared it could be lifestyle-related, but I'll turn some blood tests, sure."
+    },
+    {
+      "id": 17,
+      "start": 40.28,
+      "end": 44.08,
+      "text": "You shared it could be lifestyle-related, but I'll turn some blood tests, sure.",
+      "predicted_role": "doctor",
+      "confidence": 0.95,
+      "short_reason": "Doctor asks for blood tests and reassures patient",
+      "context_text_used": "[PREV id=16 start=36.76 end=40.28] From what?\n[TARGET id=17 start=40.28 end=44.08] You shared it could be lifestyle-related, but I'll turn some blood tests, sure.\n[NEXT id=18 start=44.08 end=45.08] Don't worry."
+    },
+    {
+      "id": 18,
+      "start": 44.08,
+      "end": 45.08,
+      "text": "Don't worry.",
+      "predicted_role": "doctor",
+      "confidence": 0.9,
+      "short_reason": "Response to patient's concern with reassurance",
+      "context_text_used": "[PREV id=17 start=40.28 end=44.08] You shared it could be lifestyle-related, but I'll turn some blood tests, sure.\n[TARGET id=18 start=44.08 end=45.08] Don't worry.\n[NEXT id=19 start=45.08 end=47.36] We'll figure this out together."
+    },
+    {
+      "id": 19,
+      "start": 45.08,
+      "end": 47.36,
+      "text": "We'll figure this out together.",
+      "predicted_role": "doctor",
+      "confidence": 0.95,
+      "short_reason": "The doctor is reassuring the patient.",
+      "context_text_used": "[PREV id=18 start=44.08 end=45.08] Don't worry.\n[TARGET id=19 start=45.08 end=47.36] We'll figure this out together.\n[NEXT id=20 start=47.36 end=48.12] I'm just trying to..."
+    },
+    {
+      "id": 20,
+      "start": 47.36,
+      "end": 48.120000000000005,
+      "text": "I'm just trying to...",
+      "predicted_role": "patient",
+      "confidence": 0.9,
+      "short_reason": "The statement 'I'm just trying to' is a common patient expression indicating an attempt or effort.",
+      "context_text_used": "[PREV id=19 start=45.08 end=47.36] We'll figure this out together.\n[TARGET id=20 start=47.36 end=48.12] I'm just trying to..."
+    }
+  ]
+}

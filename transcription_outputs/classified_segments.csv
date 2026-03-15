@@ -1,0 +1,62 @@
+id,start,end,text,predicted_role,confidence,short_reason,context_text_used
+0,0.0,4.8,"Okay, I'm the doctor.",doctor,1.0,The speaker explicitly states 'I'm the doctor' in the context.,"[TARGET id=0 start=0.00 end=4.80] Okay, I'm the doctor.
+[NEXT id=1 start=4.80 end=5.84] Good morning."
+1,4.8,5.84,Good morning.,doctor,1.0,The doctor typically initiates the conversation and addresses the patient.,"[PREV id=0 start=0.00 end=4.80] Okay, I'm the doctor.
+[TARGET id=1 start=4.80 end=5.84] Good morning.
+[NEXT id=2 start=5.84 end=7.32] Can you tell me what brings you in today?"
+2,5.84,7.32,Can you tell me what brings you in today?,doctor,1.0,Asking a question about the patient's condition,"[PREV id=1 start=4.80 end=5.84] Good morning.
+[TARGET id=2 start=5.84 end=7.32] Can you tell me what brings you in today?
+[NEXT id=3 start=7.32 end=11.84] Uh, yeah, I've been refilling really tired lately, like even after sleeping I wake up"
+3,7.32,11.84,"Uh, yeah, I've been refilling really tired lately, like even after sleeping I wake up",patient,0.95,Patient describes symptoms of fatigue and exhaustion,"[PREV id=2 start=5.84 end=7.32] Can you tell me what brings you in today?
+[TARGET id=3 start=7.32 end=11.84] Uh, yeah, I've been refilling really tired lately, like even after sleeping I wake up
+[NEXT id=4 start=11.84 end=12.84] exhausted."
+4,11.84,12.84,exhausted.,patient,0.9,"The patient is describing a symptom (exhaustion) after sleeping, which is typical of the patient's speech.","[PREV id=3 start=7.32 end=11.84] Uh, yeah, I've been refilling really tired lately, like even after sleeping I wake up
+[TARGET id=4 start=11.84 end=12.84] exhausted.
+[NEXT id=5 start=12.84 end=13.84] I see."
+5,12.84,13.84,I see.,doctor,0.95,Doctor's response is typically reassuring and does not usually involve new questions about symptoms.,"[PREV id=4 start=11.84 end=12.84] exhausted.
+[TARGET id=5 start=12.84 end=13.84] I see.
+[NEXT id=6 start=13.84 end=17.48] Have you noticed any other symptoms like headaches, dizziness, or shortness of breath?"
+6,13.84,17.48,"Have you noticed any other symptoms like headaches, dizziness, or shortness of breath?",doctor,0.95,Asking about additional symptoms,"[PREV id=5 start=12.84 end=13.84] I see.
+[TARGET id=6 start=13.84 end=17.48] Have you noticed any other symptoms like headaches, dizziness, or shortness of breath?
+[NEXT id=7 start=17.48 end=20.96] Sometimes I get this weird chest tightness, but I'm not sure if it's stress or something"
+7,17.48,20.96,"Sometimes I get this weird chest tightness, but I'm not sure if it's stress or something",patient,0.95,Patient describes personal symptoms,"[PREV id=6 start=13.84 end=17.48] Have you noticed any other symptoms like headaches, dizziness, or shortness of breath?
+[TARGET id=7 start=17.48 end=20.96] Sometimes I get this weird chest tightness, but I'm not sure if it's stress or something
+[NEXT id=8 start=20.96 end=21.96] else."
+8,20.96,21.96,else.,patient,0.95,The response 'else' is a continuation of the patient's description of symptoms.,"[PREV id=7 start=17.48 end=20.96] Sometimes I get this weird chest tightness, but I'm not sure if it's stress or something
+[TARGET id=8 start=20.96 end=21.96] else.
+[NEXT id=9 start=21.96 end=22.96] Okay, that's important."
+9,21.96,22.96,"Okay, that's important.",doctor,0.95,Doctor typically provides reassurance and asks follow-up questions.,"[PREV id=8 start=20.96 end=21.96] else.
+[TARGET id=9 start=21.96 end=22.96] Okay, that's important.
+[NEXT id=10 start=22.96 end=23.96] Do you smoke, drink, or exercise regularly?"
+10,22.96,23.96,"Do you smoke, drink, or exercise regularly?",doctor,1.0,Asking about health habits is typically a doctor's question.,"[PREV id=9 start=21.96 end=22.96] Okay, that's important.
+[TARGET id=10 start=22.96 end=23.96] Do you smoke, drink, or exercise regularly?
+[NEXT id=11 start=23.96 end=29.00] I don't smoke, but I do drink on weekends, and honestly, I haven't exercised in months."
+11,23.96,29.0,"I don't smoke, but I do drink on weekends, and honestly, I haven't exercised in months.",patient,0.95,The patient provides personal habits and exercise history in response to a question from the doctor.,"[PREV id=10 start=22.96 end=23.96] Do you smoke, drink, or exercise regularly?
+[TARGET id=11 start=23.96 end=29.00] I don't smoke, but I do drink on weekends, and honestly, I haven't exercised in months.
+[NEXT id=12 start=29.00 end=30.20] Thanks for being honest."
+12,29.0,30.2,Thanks for being honest.,doctor,0.95,Response to patient's disclosure about lifestyle habits,"[PREV id=11 start=23.96 end=29.00] I don't smoke, but I do drink on weekends, and honestly, I haven't exercised in months.
+[TARGET id=12 start=29.00 end=30.20] Thanks for being honest.
+[NEXT id=13 start=30.20 end=32.84] Are you currently taking medications or supplements?"
+13,30.2,32.84,Are you currently taking medications or supplements?,doctor,0.95,Asking about medications is typically a doctor's question.,"[PREV id=12 start=29.00 end=30.20] Thanks for being honest.
+[TARGET id=13 start=30.20 end=32.84] Are you currently taking medications or supplements?
+[NEXT id=14 start=32.84 end=34.84] Just some over-the-counter vitamins."
+14,32.84,34.84,Just some over-the-counter vitamins.,patient,0.95,"The patient provides information about their current medication (over-the-counter vitamins), which is a common topic initiated by doctors.","[PREV id=13 start=30.20 end=32.84] Are you currently taking medications or supplements?
+[TARGET id=14 start=32.84 end=34.84] Just some over-the-counter vitamins.
+[NEXT id=15 start=34.84 end=36.76] Alright, cool."
+15,34.84,36.76,"Alright, cool.",patient,0.95,"The response 'Alright, cool.' is typically a casual affirmation, which aligns with the patient's conversational style.","[PREV id=14 start=32.84 end=34.84] Just some over-the-counter vitamins.
+[TARGET id=15 start=34.84 end=36.76] Alright, cool.
+[NEXT id=16 start=36.76 end=40.28] From what?"
+16,36.76,40.28,From what?,doctor,0.95,Doctors often ask for more information or clarification.,"[PREV id=15 start=34.84 end=36.76] Alright, cool.
+[TARGET id=16 start=36.76 end=40.28] From what?
+[NEXT id=17 start=40.28 end=44.08] You shared it could be lifestyle-related, but I'll turn some blood tests, sure."
+17,40.28,44.08,"You shared it could be lifestyle-related, but I'll turn some blood tests, sure.",doctor,0.95,Doctor asks for blood tests and reassures patient,"[PREV id=16 start=36.76 end=40.28] From what?
+[TARGET id=17 start=40.28 end=44.08] You shared it could be lifestyle-related, but I'll turn some blood tests, sure.
+[NEXT id=18 start=44.08 end=45.08] Don't worry."
+18,44.08,45.08,Don't worry.,doctor,0.9,Response to patient's concern with reassurance,"[PREV id=17 start=40.28 end=44.08] You shared it could be lifestyle-related, but I'll turn some blood tests, sure.
+[TARGET id=18 start=44.08 end=45.08] Don't worry.
+[NEXT id=19 start=45.08 end=47.36] We'll figure this out together."
+19,45.08,47.36,We'll figure this out together.,doctor,0.95,The doctor is reassuring the patient.,"[PREV id=18 start=44.08 end=45.08] Don't worry.
+[TARGET id=19 start=45.08 end=47.36] We'll figure this out together.
+[NEXT id=20 start=47.36 end=48.12] I'm just trying to..."
+20,47.36,48.120000000000005,I'm just trying to...,patient,0.9,The statement 'I'm just trying to' is a common patient expression indicating an attempt or effort.,"[PREV id=19 start=45.08 end=47.36] We'll figure this out together.
+[TARGET id=20 start=47.36 end=48.12] I'm just trying to..."
