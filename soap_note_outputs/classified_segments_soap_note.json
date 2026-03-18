@@ -4,18 +4,19 @@
   "encounter": {
     "encounter_id": "classified_segments",
     "date": null,
-    "clinician": "doctor",
-    "patient": "patient"
+    "clinician": "Daniela Gonzalez",
+    "patient": "Edith Riswell"
   },
   "subjective": {
-    "chief_complaint": null,
-    "hpi_summary": "Patient reports feeling excessively tired and exhausted even after sleeping.",
+    "chief_complaint": "Feeling terrible and losing weight for no reason",
+    "hpi_summary": "Patient reports feeling tired, ill, and losing significant amount of weight (30-35 lbs) over the past six to eight months. No pain, bruising, or skipping meals reported.",
     "medications_mentioned": [],
     "allergies_mentioned": [],
     "relevant_history": [],
     "patient_reported_symptoms": [
-      "excessive tiredness",
-      "exhaustion"
+      "Tiredness",
+      "Feeling ill",
+      "Weight loss"
     ],
     "patient_denied_symptoms": []
   },
@@ -29,23 +30,20 @@
       "weight": null
     },
     "exam_findings": [],
-    "tests_or_results_discussed": [
-      "blood tests"
-    ]
+    "tests_or_results_discussed": []
   },
   "assessment": {
     "clinician_impression": [
-      "Patient may have a lifestyle-related issue"
+      "Possible unexplained weight loss and fatigue"
     ],
     "problems_addressed": [
-      "Excessive tiredness and exhaustion"
+      "Tiredness",
+      "Weight loss"
     ]
   },
   "plan": {
     "medications_started_or_changed": [],
-    "tests_ordered": [
-      "blood tests"
-    ],
+    "tests_ordered": [],
     "referrals": [],
     "patient_instructions": [],
     "follow_up": null,
@@ -53,31 +51,50 @@
   },
   "evidence": {
     "subjective_segment_ids": [
-      "3",
+      "0",
+      "1",
+      "2",
       "4",
+      "5",
       "6",
       "7",
       "8",
-      "11"
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31"
     ],
     "objective_segment_ids": [],
-    "assessment_segment_ids": [
-      "9",
-      "17"
-    ],
-    "plan_segment_ids": [
-      "18",
-      "19"
-    ]
+    "assessment_segment_ids": [],
+    "plan_segment_ids": []
   },
   "quality": {
     "missing_sections": [
-      "objective.vitals"
+      "assessment",
+      "objective",
+      "plan"
     ],
     "uncertain_fields": [
-      "subjective.hpi_summary",
-      "patient_reported_symptoms.3",
-      "plan.follow_up"
+      "subjective.hpi_summary"
     ],
     "notes": null
   }

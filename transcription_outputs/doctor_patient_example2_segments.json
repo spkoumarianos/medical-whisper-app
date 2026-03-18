@@ -1,0 +1,205 @@
+{
+  "audio_path": "doctor_patient_example2.wav",
+  "language": "en",
+  "model": "medium.en",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 12.32,
+      "text": " So, hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores, she's also a medical student."
+    },
+    {
+      "id": 1,
+      "start": 12.32,
+      "end": 16.96,
+      "text": " And today we're just gonna find out what brought you in here today."
+    },
+    {
+      "id": 2,
+      "start": 16.96,
+      "end": 20.64,
+      "text": " So, is your name Edith Riswell?"
+    },
+    {
+      "id": 3,
+      "start": 20.64,
+      "end": 21.44,
+      "text": " Yes, it is."
+    },
+    {
+      "id": 4,
+      "start": 21.44,
+      "end": 22.96,
+      "text": " Yes, how would you like me to refer you?"
+    },
+    {
+      "id": 5,
+      "start": 22.96,
+      "end": 23.84,
+      "text": " Edith is fine."
+    },
+    {
+      "id": 6,
+      "start": 23.84,
+      "end": 27.6,
+      "text": " Edith is fine? Alright. So, Edith, what brings you in here today?"
+    },
+    {
+      "id": 7,
+      "start": 28.400000000000002,
+      "end": 38.0,
+      "text": " I'm just, I'm just feeling terrible and I'm losing too much weight for no reason."
+    },
+    {
+      "id": 8,
+      "start": 38.64,
+      "end": 41.04,
+      "text": " Oh, right. Can you tell me more?"
+    },
+    {
+      "id": 9,
+      "start": 42.400000000000006,
+      "end": 52.08,
+      "text": " Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling"
+    },
+    {
+      "id": 10,
+      "start": 53.04,
+      "end": 60.64,
+      "text": " more and more tired. It's gotten to a place where if I, no matter if I run to the store"
+    },
+    {
+      "id": 11,
+      "start": 62.16,
+      "end": 67.67999999999999,
+      "text": " or, you know, just go do something, I'm, I'm warm right out and when I get home I just,"
+    },
+    {
+      "id": 12,
+      "start": 67.67999999999999,
+      "end": 78.24,
+      "text": " I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that."
+    },
+    {
+      "id": 13,
+      "start": 78.24,
+      "end": 82.39999999999999,
+      "text": " I just feel blah. I don't, there's no other way to put it. I just feel blah"
+    },
+    {
+      "id": 14,
+      "start": 83.91999999999999,
+      "end": 85.36,
+      "text": " and I feel like something's wrong."
+    },
+    {
+      "id": 15,
+      "start": 87.83999999999999,
+      "end": 91.28,
+      "text": " And you told me that it's been going on for six to eight months, is that right?"
+    },
+    {
+      "id": 16,
+      "start": 91.28,
+      "end": 93.67999999999999,
+      "text": " I'm guessing. It's been about that long that it's been,"
+    },
+    {
+      "id": 17,
+      "start": 94.32,
+      "end": 100.32,
+      "text": " that I started feeling tired, you know, and then started to get more and more and more."
+    },
+    {
+      "id": 18,
+      "start": 101.27999999999999,
+      "end": 108.24,
+      "text": " Okay, so it's just this tiredness and like you just feel ill, is that right?"
+    },
+    {
+      "id": 19,
+      "start": 108.24,
+      "end": 111.6,
+      "text": " Yeah and just losing that weight. You're just losing a lot of weight. Yeah, yeah."
+    },
+    {
+      "id": 20,
+      "start": 111.6,
+      "end": 113.36,
+      "text": " How many pounds do you think you've lost?"
+    },
+    {
+      "id": 21,
+      "start": 114.96,
+      "end": 122.39999999999999,
+      "text": " Okay, I need to lose weight anyway. So, at the beginning when it first started, I was,"
+    },
+    {
+      "id": 22,
+      "start": 123.52,
+      "end": 128.72,
+      "text": " you know, I was kind of happy but it continued and I wasn't doing anything."
+    },
+    {
+      "id": 23,
+      "start": 128.96,
+      "end": 135.52,
+      "text": " I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything."
+    },
+    {
+      "id": 24,
+      "start": 135.52,
+      "end": 141.76,
+      "text": " You're not doing anything, you know, diet. No, actually, I'm not even doing the exercise I used"
+    },
+    {
+      "id": 25,
+      "start": 141.76,
+      "end": 150.8,
+      "text": " to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,"
+    },
+    {
+      "id": 26,
+      "start": 150.8,
+      "end": 156.07999999999998,
+      "text": " so you can't really like, you feel the energy to do it, is that right? Okay, I'm sorry."
+    },
+    {
+      "id": 27,
+      "start": 156.16000000000003,
+      "end": 164.56,
+      "text": " Okay, I'm sorry. I'm really sorry to hear that. Along with this tiredness, do you feel any pain"
+    },
+    {
+      "id": 28,
+      "start": 164.56,
+      "end": 174.96,
+      "text": " anywhere? No, I don't think I do. Okay, and all right, have you noticed that you're like,"
+    },
+    {
+      "id": 29,
+      "start": 174.96,
+      "end": 178.8,
+      "text": " when you maybe like you pick yourself with something, do you see like you're bruising"
+    },
+    {
+      "id": 30,
+      "start": 179.20000000000002,
+      "end": 188.88000000000002,
+      "text": " easily? No. Okay, and are you eating all right? I am. You're eating? Yeah. And normal?"
+    },
+    {
+      "id": 31,
+      "start": 188.88000000000002,
+      "end": 196.8,
+      "text": " No, you're not like skipping meals, right? No. No? Okay, all right. So, what I would like to do,"
+    },
+    {
+      "id": 32,
+      "start": 196.8,
+      "end": 201.20000000000002,
+      "text": " I was just asking you a few more questions about your past medical history, if that's okay with you."
+    }
+  ]
+}

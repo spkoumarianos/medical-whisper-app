@@ -3,36 +3,36 @@ SOAP NOTE
 Encounter
   encounter_id: classified_segments
   date: Not documented
-  clinician: doctor
-  patient: patient
+  clinician: Daniela Gonzalez
+  patient: Edith Riswell
 
 Subjective
-  chief complaint: Not documented
-  HPI summary: Patient reports feeling excessively tired and exhausted even after sleeping.
+  chief complaint: Feeling terrible and losing weight for no reason
+  HPI summary: Patient reports feeling tired, ill, and losing significant amount of weight (30-35 lbs) over the past six to eight months. No pain, bruising, or skipping meals reported.
   medications mentioned: Not documented
   allergies mentioned: Not documented
   relevant history: Not documented
-  patient reported symptoms: excessive tiredness; exhaustion
+  patient reported symptoms: Tiredness; Feeling ill; Weight loss
   patient denied symptoms: Not documented
 
 Objective
   vitals: bp=Not documented, hr=Not documented, temp=Not documented, rr=Not documented, spo2=Not documented, weight=Not documented
   exam findings: Not documented
-  tests/results discussed: blood tests
+  tests/results discussed: Not documented
 
 Assessment
-  clinician impression: Patient may have a lifestyle-related issue
-  problems addressed: Excessive tiredness and exhaustion
+  clinician impression: Possible unexplained weight loss and fatigue
+  problems addressed: Tiredness; Weight loss
 
 Plan
   medications started/changed: Not documented
-  tests ordered: blood tests
+  tests ordered: Not documented
   referrals: Not documented
   patient instructions: Not documented
   follow up: Not documented
   return precautions: Not documented
 
 Quality
-  missing sections: objective.vitals
-  uncertain fields: subjective.hpi_summary; patient_reported_symptoms.3; plan.follow_up
+  missing sections: assessment; objective; plan
+  uncertain fields: subjective.hpi_summary
   notes: Not documented
