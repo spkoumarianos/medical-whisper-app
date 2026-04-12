@@ -1,342 +1,61 @@
 {
-  "source_json_file": "transcription_outputs/doctor_patient_example2_segments.json",
   "audio_path": "doctor_patient_example2.wav",
-  "language": "en",
-  "transcript_model": "medium.en",
+  "model_name": "mistral:7b",
   "classifier_backend": "ollama",
-  "classifier_model": "mistral:7b",
-  "context_back": 1,
-  "context_forward": 1,
   "segments": [
     {
-      "id": 0,
+      "speaker": "doctor",
       "start": 0.0,
-      "end": 12.32,
-      "text": "So, hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores, she's also a medical student.",
-      "predicted_role": "doctor",
-      "confidence": 1.0,
-      "short_reason": "Introducing themselves as medical students and stating the purpose of the conversation",
-      "context_text_used": "[TARGET id=0 start=0.00 end=12.32] So, hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores, she's also a medical student.\n[NEXT id=1 start=12.32 end=16.96] And today we're just gonna find out what brought you in here today."
+      "end": 10.4,
+      "text": "Hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores."
     },
     {
-      "id": 1,
-      "start": 12.32,
+      "speaker": "doctor",
+      "start": 10.4,
       "end": 16.96,
-      "text": "And today we're just gonna find out what brought you in here today.",
-      "predicted_role": "doctor",
-      "confidence": 1.0,
-      "short_reason": "Asking about the reason for the patient's visit",
-      "context_text_used": "[PREV id=0 start=0.00 end=12.32] So, hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores, she's also a medical student.\n[TARGET id=1 start=12.32 end=16.96] And today we're just gonna find out what brought you in here today.\n[NEXT id=2 start=16.96 end=20.64] So, is your name Edith Riswell?"
+      "text": "She's also a medical student. And today we're just gonna find out what brought you in here today."
     },
     {
-      "id": 2,
+      "speaker": "doctor",
       "start": 16.96,
-      "end": 20.64,
-      "text": "So, is your name Edith Riswell?",
-      "predicted_role": "doctor",
-      "confidence": 1.0,
-      "short_reason": "Asking for the patient's name in a medical conversation",
-      "context_text_used": "[PREV id=1 start=12.32 end=16.96] And today we're just gonna find out what brought you in here today.\n[TARGET id=2 start=16.96 end=20.64] So, is your name Edith Riswell?\n[NEXT id=3 start=20.64 end=21.44] Yes, it is."
+      "end": 20.72,
+      "text": "So, is your name Edith Riswell?"
     },
     {
-      "id": 3,
-      "start": 20.64,
+      "speaker": "patient",
+      "start": 20.72,
       "end": 21.44,
-      "text": "Yes, it is.",
-      "predicted_role": "patient",
-      "confidence": 1.0,
-      "short_reason": "The response is confirming personal information, which is typically provided by the patient.",
-      "context_text_used": "[PREV id=2 start=16.96 end=20.64] So, is your name Edith Riswell?\n[TARGET id=3 start=20.64 end=21.44] Yes, it is.\n[NEXT id=4 start=21.44 end=22.96] Yes, how would you like me to refer you?"
+      "text": "Yes, it is."
     },
     {
-      "id": 4,
+      "speaker": "doctor",
       "start": 21.44,
-      "end": 22.96,
-      "text": "Yes, how would you like me to refer you?",
-      "predicted_role": "doctor",
-      "confidence": 1.0,
-      "short_reason": "The utterance 'Yes, how would you like me to refer you?' is a question about next steps, which is typically a doctor's role.",
-      "context_text_used": "[PREV id=3 start=20.64 end=21.44] Yes, it is.\n[TARGET id=4 start=21.44 end=22.96] Yes, how would you like me to refer you?\n[NEXT id=5 start=22.96 end=23.84] Edith is fine."
+      "end": 23.04,
+      "text": "Yes. How would you like me to refer you?"
     },
     {
-      "id": 5,
-      "start": 22.96,
-      "end": 23.84,
-      "text": "Edith is fine.",
-      "predicted_role": "patient",
-      "confidence": 1.0,
-      "short_reason": "The patient provides a response to the doctor's question about why they came in.",
-      "context_text_used": "[PREV id=4 start=21.44 end=22.96] Yes, how would you like me to refer you?\n[TARGET id=5 start=22.96 end=23.84] Edith is fine.\n[NEXT id=6 start=23.84 end=27.60] Edith is fine? Alright. So, Edith, what brings you in here today?"
+      "speaker": "patient",
+      "start": 23.04,
+      "end": 23.92,
+      "text": "Edith is fine."
     },
     {
-      "id": 6,
-      "start": 23.84,
-      "end": 27.6,
-      "text": "Edith is fine? Alright. So, Edith, what brings you in here today?",
-      "predicted_role": "doctor",
-      "confidence": 1.0,
-      "short_reason": "Doctor asks a question about the patient's condition",
-      "context_text_used": "[PREV id=5 start=22.96 end=23.84] Edith is fine.\n[TARGET id=6 start=23.84 end=27.60] Edith is fine? Alright. So, Edith, what brings you in here today?\n[NEXT id=7 start=28.40 end=38.00] I'm just, I'm just feeling terrible and I'm losing too much weight for no reason."
+      "speaker": "doctor",
+      "start": 23.92,
+      "end": 27.68,
+      "text": "Edith is fine? Alright. So, Edith, what brings you in here today?"
     },
     {
-      "id": 7,
-      "start": 28.400000000000002,
-      "end": 38.0,
-      "text": "I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The statement 'I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.' is a patient's lived experience and symptoms.",
-      "context_text_used": "[PREV id=6 start=23.84 end=27.60] Edith is fine? Alright. So, Edith, what brings you in here today?\n[TARGET id=7 start=28.40 end=38.00] I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.\n[NEXT id=8 start=38.64 end=41.04] Oh, right. Can you tell me more?"
-    },
-    {
-      "id": 8,
-      "start": 38.64,
-      "end": 41.04,
-      "text": "Oh, right. Can you tell me more?",
-      "predicted_role": "doctor",
-      "confidence": 1.0,
-      "short_reason": "Asking for more information about the patient's symptoms",
-      "context_text_used": "[PREV id=7 start=28.40 end=38.00] I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.\n[TARGET id=8 start=38.64 end=41.04] Oh, right. Can you tell me more?\n[NEXT id=9 start=42.40 end=52.08] Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling"
-    },
-    {
-      "id": 9,
-      "start": 42.400000000000006,
-      "end": 52.08,
-      "text": "Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling",
-      "predicted_role": "patient",
-      "confidence": 0.98,
-      "short_reason": "Patient describes personal symptoms over time",
-      "context_text_used": "[PREV id=8 start=38.64 end=41.04] Oh, right. Can you tell me more?\n[TARGET id=9 start=42.40 end=52.08] Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling\n[NEXT id=10 start=53.04 end=60.64] more and more tired. It's gotten to a place where if I, no matter if I run to the store"
-    },
-    {
-      "id": 10,
-      "start": 53.04,
-      "end": 60.64,
-      "text": "more and more tired. It's gotten to a place where if I, no matter if I run to the store",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The segment discusses personal symptoms and activities.",
-      "context_text_used": "[PREV id=9 start=42.40 end=52.08] Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling\n[TARGET id=10 start=53.04 end=60.64] more and more tired. It's gotten to a place where if I, no matter if I run to the store\n[NEXT id=11 start=62.16 end=67.68] or, you know, just go do something, I'm, I'm warm right out and when I get home I just,"
-    },
-    {
-      "id": 11,
-      "start": 62.16,
-      "end": 67.67999999999999,
-      "text": "or, you know, just go do something, I'm, I'm warm right out and when I get home I just,",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The patient describes personal symptoms and changes in lifestyle.",
-      "context_text_used": "[PREV id=10 start=53.04 end=60.64] more and more tired. It's gotten to a place where if I, no matter if I run to the store\n[TARGET id=11 start=62.16 end=67.68] or, you know, just go do something, I'm, I'm warm right out and when I get home I just,\n[NEXT id=12 start=67.68 end=78.24] I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that."
-    },
-    {
-      "id": 12,
-      "start": 67.67999999999999,
-      "end": 78.24,
-      "text": "I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that.",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "Patient describes personal feelings and skips social events",
-      "context_text_used": "[PREV id=11 start=62.16 end=67.68] or, you know, just go do something, I'm, I'm warm right out and when I get home I just,\n[TARGET id=12 start=67.68 end=78.24] I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that.\n[NEXT id=13 start=78.24 end=82.40] I just feel blah. I don't, there's no other way to put it. I just feel blah"
-    },
-    {
-      "id": 13,
-      "start": 78.24,
-      "end": 82.39999999999999,
-      "text": "I just feel blah. I don't, there's no other way to put it. I just feel blah",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "Patient expresses feelings of malaise and concern",
-      "context_text_used": "[PREV id=12 start=67.68 end=78.24] I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that.\n[TARGET id=13 start=78.24 end=82.40] I just feel blah. I don't, there's no other way to put it. I just feel blah\n[NEXT id=14 start=83.92 end=85.36] and I feel like something's wrong."
-    },
-    {
-      "id": 14,
-      "start": 83.91999999999999,
-      "end": 85.36,
-      "text": "and I feel like something's wrong.",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "Patient expresses personal feelings and symptoms without a question or directive, which are common in patient speech.",
-      "context_text_used": "[PREV id=13 start=78.24 end=82.40] I just feel blah. I don't, there's no other way to put it. I just feel blah\n[TARGET id=14 start=83.92 end=85.36] and I feel like something's wrong.\n[NEXT id=15 start=87.84 end=91.28] And you told me that it's been going on for six to eight months, is that right?"
-    },
-    {
-      "id": 15,
-      "start": 87.83999999999999,
-      "end": 91.28,
-      "text": "And you told me that it's been going on for six to eight months, is that right?",
-      "predicted_role": "doctor",
-      "confidence": 0.95,
-      "short_reason": "Asked for confirmation on the duration of symptoms.",
-      "context_text_used": "[PREV id=14 start=83.92 end=85.36] and I feel like something's wrong.\n[TARGET id=15 start=87.84 end=91.28] And you told me that it's been going on for six to eight months, is that right?\n[NEXT id=16 start=91.28 end=93.68] I'm guessing. It's been about that long that it's been,"
-    },
-    {
-      "id": 16,
-      "start": 91.28,
-      "end": 93.67999999999999,
-      "text": "I'm guessing. It's been about that long that it's been,",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The statement 'I'm guessing' suggests a response to the doctor's question, indicating patient speech.",
-      "context_text_used": "[PREV id=15 start=87.84 end=91.28] And you told me that it's been going on for six to eight months, is that right?\n[TARGET id=16 start=91.28 end=93.68] I'm guessing. It's been about that long that it's been,\n[NEXT id=17 start=94.32 end=100.32] that I started feeling tired, you know, and then started to get more and more and more."
-    },
-    {
-      "id": 17,
-      "start": 94.32,
+      "speaker": "patient",
+      "start": 28.4,
       "end": 100.32,
-      "text": "that I started feeling tired, you know, and then started to get more and more and more.",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The utterance describes personal symptoms and feelings, which are typically patient speech.",
-      "context_text_used": "[PREV id=16 start=91.28 end=93.68] I'm guessing. It's been about that long that it's been,\n[TARGET id=17 start=94.32 end=100.32] that I started feeling tired, you know, and then started to get more and more and more.\n[NEXT id=18 start=101.28 end=108.24] Okay, so it's just this tiredness and like you just feel ill, is that right?"
+      "text": "I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.\nOh, right. Can you tell me more?\nYeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling warm or more tired. It's gotten to a place where if I, no matter if I run to the store or you know, just go do something, I'm warm right out and when I get home, I just, I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that. I just feel blah.\nI don't know, there's no other way to put it. I just feel blah\nand I feel like something's wrong.\nAnd you told me that it's been going on for six to eight months, is that right?\nI'm guessing. It's been about that long that it's been, that I started feeling tired, you know, and then started to get more and more and more.\nOkay. So, it's just this tiredness and like you just feel ill, is that right?\nYeah, and just losing that weight. You're just losing a lot of weight. Yeah, yeah.\nHow many pounds do you think you've lost?\nOkay, I need to lose weight anyway. So, at the beginning when it first started,\nI was, you know, I was kind of happy but it continued and I wasn't doing anything.\nI think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything.\nI'm not even doing the exercise I used to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore, so you can't really like you feel the energy to do it, is that right? Okay, I'm sorry.\nI just got womanly right down. Okay, I'm really sorry to hear that.\nThank you. Along with this tiredness, do you feel any pain anywhere?\nNo, I don't think I do. No? Okay, okay. And all right, have you noticed that you're like,\nwhen you maybe like you take yourself with something, do you see like you're bruising very easily? No, I haven't seen that.\nOkay, and are you eating all right? I am. You're eating? Yeah.\nAnd normal, no, you're not like skipping meals, right? No. No?"
     },
     {
-      "id": 18,
-      "start": 101.27999999999999,
-      "end": 108.24,
-      "text": "Okay, so it's just this tiredness and like you just feel ill, is that right?",
-      "predicted_role": "doctor",
-      "confidence": 0.95,
-      "short_reason": "Doctor asks about symptoms (tiredness, weight loss) in a questioning manner",
-      "context_text_used": "[PREV id=17 start=94.32 end=100.32] that I started feeling tired, you know, and then started to get more and more and more.\n[TARGET id=18 start=101.28 end=108.24] Okay, so it's just this tiredness and like you just feel ill, is that right?\n[NEXT id=19 start=108.24 end=111.60] Yeah and just losing that weight. You're just losing a lot of weight. Yeah, yeah."
-    },
-    {
-      "id": 19,
-      "start": 108.24,
-      "end": 111.6,
-      "text": "Yeah and just losing that weight. You're just losing a lot of weight. Yeah, yeah.",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The patient is describing personal symptoms (tiredness and weight loss) in response to the doctor's question.",
-      "context_text_used": "[PREV id=18 start=101.28 end=108.24] Okay, so it's just this tiredness and like you just feel ill, is that right?\n[TARGET id=19 start=108.24 end=111.60] Yeah and just losing that weight. You're just losing a lot of weight. Yeah, yeah.\n[NEXT id=20 start=111.60 end=113.36] How many pounds do you think you've lost?"
-    },
-    {
-      "id": 20,
-      "start": 111.6,
-      "end": 113.36,
-      "text": "How many pounds do you think you've lost?",
-      "predicted_role": "doctor",
-      "confidence": 0.95,
-      "short_reason": "Asks about weight loss, a common doctor inquiry.",
-      "context_text_used": "[PREV id=19 start=108.24 end=111.60] Yeah and just losing that weight. You're just losing a lot of weight. Yeah, yeah.\n[TARGET id=20 start=111.60 end=113.36] How many pounds do you think you've lost?\n[NEXT id=21 start=114.96 end=122.40] Okay, I need to lose weight anyway. So, at the beginning when it first started, I was,"
-    },
-    {
-      "id": 21,
-      "start": 114.96,
-      "end": 122.39999999999999,
-      "text": "Okay, I need to lose weight anyway. So, at the beginning when it first started, I was,",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The statement 'I need to lose weight anyway' is a personal health goal, which is typically expressed by the patient.",
-      "context_text_used": "[PREV id=20 start=111.60 end=113.36] How many pounds do you think you've lost?\n[TARGET id=21 start=114.96 end=122.40] Okay, I need to lose weight anyway. So, at the beginning when it first started, I was,\n[NEXT id=22 start=123.52 end=128.72] you know, I was kind of happy but it continued and I wasn't doing anything."
-    },
-    {
-      "id": 22,
-      "start": 123.52,
-      "end": 128.72,
-      "text": "you know, I was kind of happy but it continued and I wasn't doing anything.",
-      "predicted_role": "patient",
-      "confidence": 0.98,
-      "short_reason": "The patient discusses their weight loss experience and the amount lost, which are common patient topics.",
-      "context_text_used": "[PREV id=21 start=114.96 end=122.40] Okay, I need to lose weight anyway. So, at the beginning when it first started, I was,\n[TARGET id=22 start=123.52 end=128.72] you know, I was kind of happy but it continued and I wasn't doing anything.\n[NEXT id=23 start=128.96 end=135.52] I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything."
-    },
-    {
-      "id": 23,
-      "start": 128.96,
-      "end": 135.52,
-      "text": "I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything.",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The patient is discussing their weight loss and lack of exercise.",
-      "context_text_used": "[PREV id=22 start=123.52 end=128.72] you know, I was kind of happy but it continued and I wasn't doing anything.\n[TARGET id=23 start=128.96 end=135.52] I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything.\n[NEXT id=24 start=135.52 end=141.76] You're not doing anything, you know, diet. No, actually, I'm not even doing the exercise I used"
-    },
-    {
-      "id": 24,
-      "start": 135.52,
-      "end": 141.76,
-      "text": "You're not doing anything, you know, diet. No, actually, I'm not even doing the exercise I used",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The patient is discussing their lack of diet and exercise, which are common topics for patients in a medical conversation.",
-      "context_text_used": "[PREV id=23 start=128.96 end=135.52] I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything.\n[TARGET id=24 start=135.52 end=141.76] You're not doing anything, you know, diet. No, actually, I'm not even doing the exercise I used\n[NEXT id=25 start=141.76 end=150.80] to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,"
-    },
-    {
-      "id": 25,
-      "start": 141.76,
-      "end": 150.8,
-      "text": "to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The patient discusses their lack of exercise due to physical limitations.",
-      "context_text_used": "[PREV id=24 start=135.52 end=141.76] You're not doing anything, you know, diet. No, actually, I'm not even doing the exercise I used\n[TARGET id=25 start=141.76 end=150.80] to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,\n[NEXT id=26 start=150.80 end=156.08] so you can't really like, you feel the energy to do it, is that right? Okay, I'm sorry."
-    },
-    {
-      "id": 26,
-      "start": 150.8,
-      "end": 156.07999999999998,
-      "text": "so you can't really like, you feel the energy to do it, is that right? Okay, I'm sorry.",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The statement is a personal experience and shows symptoms (tiredness).",
-      "context_text_used": "[PREV id=25 start=141.76 end=150.80] to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,\n[TARGET id=26 start=150.80 end=156.08] so you can't really like, you feel the energy to do it, is that right? Okay, I'm sorry.\n[NEXT id=27 start=156.16 end=164.56] Okay, I'm sorry. I'm really sorry to hear that. Along with this tiredness, do you feel any pain"
-    },
-    {
-      "id": 27,
-      "start": 156.16000000000003,
-      "end": 164.56,
-      "text": "Okay, I'm sorry. I'm really sorry to hear that. Along with this tiredness, do you feel any pain",
-      "predicted_role": "doctor",
-      "confidence": 0.98,
-      "short_reason": "Asking a follow-up question about pain",
-      "context_text_used": "[PREV id=26 start=150.80 end=156.08] so you can't really like, you feel the energy to do it, is that right? Okay, I'm sorry.\n[TARGET id=27 start=156.16 end=164.56] Okay, I'm sorry. I'm really sorry to hear that. Along with this tiredness, do you feel any pain\n[NEXT id=28 start=164.56 end=174.96] anywhere? No, I don't think I do. Okay, and all right, have you noticed that you're like,"
-    },
-    {
-      "id": 28,
-      "start": 164.56,
-      "end": 174.96,
-      "text": "anywhere? No, I don't think I do. Okay, and all right, have you noticed that you're like,",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The patient is responding to a question about physical pain.",
-      "context_text_used": "[PREV id=27 start=156.16 end=164.56] Okay, I'm sorry. I'm really sorry to hear that. Along with this tiredness, do you feel any pain\n[TARGET id=28 start=164.56 end=174.96] anywhere? No, I don't think I do. Okay, and all right, have you noticed that you're like,\n[NEXT id=29 start=174.96 end=178.80] when you maybe like you pick yourself with something, do you see like you're bruising"
-    },
-    {
-      "id": 29,
-      "start": 174.96,
-      "end": 178.8,
-      "text": "when you maybe like you pick yourself with something, do you see like you're bruising",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The patient describes a physical symptom (bruising) in response to the doctor's question.",
-      "context_text_used": "[PREV id=28 start=164.56 end=174.96] anywhere? No, I don't think I do. Okay, and all right, have you noticed that you're like,\n[TARGET id=29 start=174.96 end=178.80] when you maybe like you pick yourself with something, do you see like you're bruising\n[NEXT id=30 start=179.20 end=188.88] easily? No. Okay, and are you eating all right? I am. You're eating? Yeah. And normal?"
-    },
-    {
-      "id": 30,
-      "start": 179.20000000000002,
-      "end": 188.88000000000002,
-      "text": "easily? No. Okay, and are you eating all right? I am. You're eating? Yeah. And normal?",
-      "predicted_role": "patient",
-      "confidence": 0.95,
-      "short_reason": "The patient provides an affirmative answer to the doctor's question about eating habits.",
-      "context_text_used": "[PREV id=29 start=174.96 end=178.80] when you maybe like you pick yourself with something, do you see like you're bruising\n[TARGET id=30 start=179.20 end=188.88] easily? No. Okay, and are you eating all right? I am. You're eating? Yeah. And normal?\n[NEXT id=31 start=188.88 end=196.80] No, you're not like skipping meals, right? No. No? Okay, all right. So, what I would like to do,"
-    },
-    {
-      "id": 31,
-      "start": 188.88000000000002,
-      "end": 196.8,
-      "text": "No, you're not like skipping meals, right? No. No? Okay, all right. So, what I would like to do,",
-      "predicted_role": "doctor",
-      "confidence": 0.95,
-      "short_reason": "Asking follow-up question about meal consumption and discussing further questions about past medical history.",
-      "context_text_used": "[PREV id=30 start=179.20 end=188.88] easily? No. Okay, and are you eating all right? I am. You're eating? Yeah. And normal?\n[TARGET id=31 start=188.88 end=196.80] No, you're not like skipping meals, right? No. No? Okay, all right. So, what I would like to do,\n[NEXT id=32 start=196.80 end=201.20] I was just asking you a few more questions about your past medical history, if that's okay with you."
-    },
-    {
-      "id": 32,
-      "start": 196.8,
-      "end": 201.20000000000002,
-      "text": "I was just asking you a few more questions about your past medical history, if that's okay with you.",
-      "predicted_role": "doctor",
-      "confidence": 0.95,
-      "short_reason": "Asking additional questions about the patient's past medical history.",
-      "context_text_used": "[PREV id=31 start=188.88 end=196.80] No, you're not like skipping meals, right? No. No? Okay, all right. So, what I would like to do,\n[TARGET id=32 start=196.80 end=201.20] I was just asking you a few more questions about your past medical history, if that's okay with you."
+      "speaker": "doctor",
+      "start": 199.44,
+      "end": 201.2,
+      "text": "What I would like to do now is just ask you a few more questions about your past medical history, if that's okay with you."
     }
   ]
 }

@@ -1,98 +1,29 @@
-id,start,end,text,predicted_role,confidence,short_reason,context_text_used
-0,0.0,12.32,"So, hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores, she's also a medical student.",doctor,1.0,Introducing themselves as medical students and stating the purpose of the conversation,"[TARGET id=0 start=0.00 end=12.32] So, hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores, she's also a medical student.
-[NEXT id=1 start=12.32 end=16.96] And today we're just gonna find out what brought you in here today."
-1,12.32,16.96,And today we're just gonna find out what brought you in here today.,doctor,1.0,Asking about the reason for the patient's visit,"[PREV id=0 start=0.00 end=12.32] So, hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores, she's also a medical student.
-[TARGET id=1 start=12.32 end=16.96] And today we're just gonna find out what brought you in here today.
-[NEXT id=2 start=16.96 end=20.64] So, is your name Edith Riswell?"
-2,16.96,20.64,"So, is your name Edith Riswell?",doctor,1.0,Asking for the patient's name in a medical conversation,"[PREV id=1 start=12.32 end=16.96] And today we're just gonna find out what brought you in here today.
-[TARGET id=2 start=16.96 end=20.64] So, is your name Edith Riswell?
-[NEXT id=3 start=20.64 end=21.44] Yes, it is."
-3,20.64,21.44,"Yes, it is.",patient,1.0,"The response is confirming personal information, which is typically provided by the patient.","[PREV id=2 start=16.96 end=20.64] So, is your name Edith Riswell?
-[TARGET id=3 start=20.64 end=21.44] Yes, it is.
-[NEXT id=4 start=21.44 end=22.96] Yes, how would you like me to refer you?"
-4,21.44,22.96,"Yes, how would you like me to refer you?",doctor,1.0,"The utterance 'Yes, how would you like me to refer you?' is a question about next steps, which is typically a doctor's role.","[PREV id=3 start=20.64 end=21.44] Yes, it is.
-[TARGET id=4 start=21.44 end=22.96] Yes, how would you like me to refer you?
-[NEXT id=5 start=22.96 end=23.84] Edith is fine."
-5,22.96,23.84,Edith is fine.,patient,1.0,The patient provides a response to the doctor's question about why they came in.,"[PREV id=4 start=21.44 end=22.96] Yes, how would you like me to refer you?
-[TARGET id=5 start=22.96 end=23.84] Edith is fine.
-[NEXT id=6 start=23.84 end=27.60] Edith is fine? Alright. So, Edith, what brings you in here today?"
-6,23.84,27.6,"Edith is fine? Alright. So, Edith, what brings you in here today?",doctor,1.0,Doctor asks a question about the patient's condition,"[PREV id=5 start=22.96 end=23.84] Edith is fine.
-[TARGET id=6 start=23.84 end=27.60] Edith is fine? Alright. So, Edith, what brings you in here today?
-[NEXT id=7 start=28.40 end=38.00] I'm just, I'm just feeling terrible and I'm losing too much weight for no reason."
-7,28.400000000000002,38.0,"I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.",patient,0.95,"The statement 'I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.' is a patient's lived experience and symptoms.","[PREV id=6 start=23.84 end=27.60] Edith is fine? Alright. So, Edith, what brings you in here today?
-[TARGET id=7 start=28.40 end=38.00] I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.
-[NEXT id=8 start=38.64 end=41.04] Oh, right. Can you tell me more?"
-8,38.64,41.04,"Oh, right. Can you tell me more?",doctor,1.0,Asking for more information about the patient's symptoms,"[PREV id=7 start=28.40 end=38.00] I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.
-[TARGET id=8 start=38.64 end=41.04] Oh, right. Can you tell me more?
-[NEXT id=9 start=42.40 end=52.08] Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling"
-9,42.400000000000006,52.08,"Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling",patient,0.98,Patient describes personal symptoms over time,"[PREV id=8 start=38.64 end=41.04] Oh, right. Can you tell me more?
-[TARGET id=9 start=42.40 end=52.08] Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling
-[NEXT id=10 start=53.04 end=60.64] more and more tired. It's gotten to a place where if I, no matter if I run to the store"
-10,53.04,60.64,"more and more tired. It's gotten to a place where if I, no matter if I run to the store",patient,0.95,The segment discusses personal symptoms and activities.,"[PREV id=9 start=42.40 end=52.08] Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling
-[TARGET id=10 start=53.04 end=60.64] more and more tired. It's gotten to a place where if I, no matter if I run to the store
-[NEXT id=11 start=62.16 end=67.68] or, you know, just go do something, I'm, I'm warm right out and when I get home I just,"
-11,62.16,67.67999999999999,"or, you know, just go do something, I'm, I'm warm right out and when I get home I just,",patient,0.95,The patient describes personal symptoms and changes in lifestyle.,"[PREV id=10 start=53.04 end=60.64] more and more tired. It's gotten to a place where if I, no matter if I run to the store
-[TARGET id=11 start=62.16 end=67.68] or, you know, just go do something, I'm, I'm warm right out and when I get home I just,
-[NEXT id=12 start=67.68 end=78.24] I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that."
-12,67.67999999999999,78.24,"I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that.",patient,0.95,Patient describes personal feelings and skips social events,"[PREV id=11 start=62.16 end=67.68] or, you know, just go do something, I'm, I'm warm right out and when I get home I just,
-[TARGET id=12 start=67.68 end=78.24] I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that.
-[NEXT id=13 start=78.24 end=82.40] I just feel blah. I don't, there's no other way to put it. I just feel blah"
-13,78.24,82.39999999999999,"I just feel blah. I don't, there's no other way to put it. I just feel blah",patient,0.95,Patient expresses feelings of malaise and concern,"[PREV id=12 start=67.68 end=78.24] I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that.
-[TARGET id=13 start=78.24 end=82.40] I just feel blah. I don't, there's no other way to put it. I just feel blah
-[NEXT id=14 start=83.92 end=85.36] and I feel like something's wrong."
-14,83.91999999999999,85.36,and I feel like something's wrong.,patient,0.95,"Patient expresses personal feelings and symptoms without a question or directive, which are common in patient speech.","[PREV id=13 start=78.24 end=82.40] I just feel blah. I don't, there's no other way to put it. I just feel blah
-[TARGET id=14 start=83.92 end=85.36] and I feel like something's wrong.
-[NEXT id=15 start=87.84 end=91.28] And you told me that it's been going on for six to eight months, is that right?"
-15,87.83999999999999,91.28,"And you told me that it's been going on for six to eight months, is that right?",doctor,0.95,Asked for confirmation on the duration of symptoms.,"[PREV id=14 start=83.92 end=85.36] and I feel like something's wrong.
-[TARGET id=15 start=87.84 end=91.28] And you told me that it's been going on for six to eight months, is that right?
-[NEXT id=16 start=91.28 end=93.68] I'm guessing. It's been about that long that it's been,"
-16,91.28,93.67999999999999,"I'm guessing. It's been about that long that it's been,",patient,0.95,"The statement 'I'm guessing' suggests a response to the doctor's question, indicating patient speech.","[PREV id=15 start=87.84 end=91.28] And you told me that it's been going on for six to eight months, is that right?
-[TARGET id=16 start=91.28 end=93.68] I'm guessing. It's been about that long that it's been,
-[NEXT id=17 start=94.32 end=100.32] that I started feeling tired, you know, and then started to get more and more and more."
-17,94.32,100.32,"that I started feeling tired, you know, and then started to get more and more and more.",patient,0.95,"The utterance describes personal symptoms and feelings, which are typically patient speech.","[PREV id=16 start=91.28 end=93.68] I'm guessing. It's been about that long that it's been,
-[TARGET id=17 start=94.32 end=100.32] that I started feeling tired, you know, and then started to get more and more and more.
-[NEXT id=18 start=101.28 end=108.24] Okay, so it's just this tiredness and like you just feel ill, is that right?"
-18,101.27999999999999,108.24,"Okay, so it's just this tiredness and like you just feel ill, is that right?",doctor,0.95,"Doctor asks about symptoms (tiredness, weight loss) in a questioning manner","[PREV id=17 start=94.32 end=100.32] that I started feeling tired, you know, and then started to get more and more and more.
-[TARGET id=18 start=101.28 end=108.24] Okay, so it's just this tiredness and like you just feel ill, is that right?
-[NEXT id=19 start=108.24 end=111.60] Yeah and just losing that weight. You're just losing a lot of weight. Yeah, yeah."
-19,108.24,111.6,"Yeah and just losing that weight. You're just losing a lot of weight. Yeah, yeah.",patient,0.95,The patient is describing personal symptoms (tiredness and weight loss) in response to the doctor's question.,"[PREV id=18 start=101.28 end=108.24] Okay, so it's just this tiredness and like you just feel ill, is that right?
-[TARGET id=19 start=108.24 end=111.60] Yeah and just losing that weight. You're just losing a lot of weight. Yeah, yeah.
-[NEXT id=20 start=111.60 end=113.36] How many pounds do you think you've lost?"
-20,111.6,113.36,How many pounds do you think you've lost?,doctor,0.95,"Asks about weight loss, a common doctor inquiry.","[PREV id=19 start=108.24 end=111.60] Yeah and just losing that weight. You're just losing a lot of weight. Yeah, yeah.
-[TARGET id=20 start=111.60 end=113.36] How many pounds do you think you've lost?
-[NEXT id=21 start=114.96 end=122.40] Okay, I need to lose weight anyway. So, at the beginning when it first started, I was,"
-21,114.96,122.39999999999999,"Okay, I need to lose weight anyway. So, at the beginning when it first started, I was,",patient,0.95,"The statement 'I need to lose weight anyway' is a personal health goal, which is typically expressed by the patient.","[PREV id=20 start=111.60 end=113.36] How many pounds do you think you've lost?
-[TARGET id=21 start=114.96 end=122.40] Okay, I need to lose weight anyway. So, at the beginning when it first started, I was,
-[NEXT id=22 start=123.52 end=128.72] you know, I was kind of happy but it continued and I wasn't doing anything."
-22,123.52,128.72,"you know, I was kind of happy but it continued and I wasn't doing anything.",patient,0.98,"The patient discusses their weight loss experience and the amount lost, which are common patient topics.","[PREV id=21 start=114.96 end=122.40] Okay, I need to lose weight anyway. So, at the beginning when it first started, I was,
-[TARGET id=22 start=123.52 end=128.72] you know, I was kind of happy but it continued and I wasn't doing anything.
-[NEXT id=23 start=128.96 end=135.52] I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything."
-23,128.96,135.52,"I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything.",patient,0.95,The patient is discussing their weight loss and lack of exercise.,"[PREV id=22 start=123.52 end=128.72] you know, I was kind of happy but it continued and I wasn't doing anything.
-[TARGET id=23 start=128.96 end=135.52] I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything.
-[NEXT id=24 start=135.52 end=141.76] You're not doing anything, you know, diet. No, actually, I'm not even doing the exercise I used"
-24,135.52,141.76,"You're not doing anything, you know, diet. No, actually, I'm not even doing the exercise I used",patient,0.95,"The patient is discussing their lack of diet and exercise, which are common topics for patients in a medical conversation.","[PREV id=23 start=128.96 end=135.52] I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything.
-[TARGET id=24 start=135.52 end=141.76] You're not doing anything, you know, diet. No, actually, I'm not even doing the exercise I used
-[NEXT id=25 start=141.76 end=150.80] to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,"
-25,141.76,150.8,"to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,",patient,0.95,The patient discusses their lack of exercise due to physical limitations.,"[PREV id=24 start=135.52 end=141.76] You're not doing anything, you know, diet. No, actually, I'm not even doing the exercise I used
-[TARGET id=25 start=141.76 end=150.80] to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,
-[NEXT id=26 start=150.80 end=156.08] so you can't really like, you feel the energy to do it, is that right? Okay, I'm sorry."
-26,150.8,156.07999999999998,"so you can't really like, you feel the energy to do it, is that right? Okay, I'm sorry.",patient,0.95,The statement is a personal experience and shows symptoms (tiredness).,"[PREV id=25 start=141.76 end=150.80] to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,
-[TARGET id=26 start=150.80 end=156.08] so you can't really like, you feel the energy to do it, is that right? Okay, I'm sorry.
-[NEXT id=27 start=156.16 end=164.56] Okay, I'm sorry. I'm really sorry to hear that. Along with this tiredness, do you feel any pain"
-27,156.16000000000003,164.56,"Okay, I'm sorry. I'm really sorry to hear that. Along with this tiredness, do you feel any pain",doctor,0.98,Asking a follow-up question about pain,"[PREV id=26 start=150.80 end=156.08] so you can't really like, you feel the energy to do it, is that right? Okay, I'm sorry.
-[TARGET id=27 start=156.16 end=164.56] Okay, I'm sorry. I'm really sorry to hear that. Along with this tiredness, do you feel any pain
-[NEXT id=28 start=164.56 end=174.96] anywhere? No, I don't think I do. Okay, and all right, have you noticed that you're like,"
-28,164.56,174.96,"anywhere? No, I don't think I do. Okay, and all right, have you noticed that you're like,",patient,0.95,The patient is responding to a question about physical pain.,"[PREV id=27 start=156.16 end=164.56] Okay, I'm sorry. I'm really sorry to hear that. Along with this tiredness, do you feel any pain
-[TARGET id=28 start=164.56 end=174.96] anywhere? No, I don't think I do. Okay, and all right, have you noticed that you're like,
-[NEXT id=29 start=174.96 end=178.80] when you maybe like you pick yourself with something, do you see like you're bruising"
-29,174.96,178.8,"when you maybe like you pick yourself with something, do you see like you're bruising",patient,0.95,The patient describes a physical symptom (bruising) in response to the doctor's question.,"[PREV id=28 start=164.56 end=174.96] anywhere? No, I don't think I do. Okay, and all right, have you noticed that you're like,
-[TARGET id=29 start=174.96 end=178.80] when you maybe like you pick yourself with something, do you see like you're bruising
-[NEXT id=30 start=179.20 end=188.88] easily? No. Okay, and are you eating all right? I am. You're eating? Yeah. And normal?"
-30,179.20000000000002,188.88000000000002,"easily? No. Okay, and are you eating all right? I am. You're eating? Yeah. And normal?",patient,0.95,The patient provides an affirmative answer to the doctor's question about eating habits.,"[PREV id=29 start=174.96 end=178.80] when you maybe like you pick yourself with something, do you see like you're bruising
-[TARGET id=30 start=179.20 end=188.88] easily? No. Okay, and are you eating all right? I am. You're eating? Yeah. And normal?
-[NEXT id=31 start=188.88 end=196.80] No, you're not like skipping meals, right? No. No? Okay, all right. So, what I would like to do,"
-31,188.88000000000002,196.8,"No, you're not like skipping meals, right? No. No? Okay, all right. So, what I would like to do,",doctor,0.95,Asking follow-up question about meal consumption and discussing further questions about past medical history.,"[PREV id=30 start=179.20 end=188.88] easily? No. Okay, and are you eating all right? I am. You're eating? Yeah. And normal?
-[TARGET id=31 start=188.88 end=196.80] No, you're not like skipping meals, right? No. No? Okay, all right. So, what I would like to do,
-[NEXT id=32 start=196.80 end=201.20] I was just asking you a few more questions about your past medical history, if that's okay with you."
-32,196.8,201.20000000000002,"I was just asking you a few more questions about your past medical history, if that's okay with you.",doctor,0.95,Asking additional questions about the patient's past medical history.,"[PREV id=31 start=188.88 end=196.80] No, you're not like skipping meals, right? No. No? Okay, all right. So, what I would like to do,
-[TARGET id=32 start=196.80 end=201.20] I was just asking you a few more questions about your past medical history, if that's okay with you."
+start,end,speaker,text
+0.0,10.4,doctor,"Hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores."
+10.4,16.96,doctor,She's also a medical student. And today we're just gonna find out what brought you in here today.
+16.96,20.72,doctor,"So, is your name Edith Riswell?"
+20.72,21.44,patient,"Yes, it is."
+21.44,23.04,doctor,Yes. How would you like me to refer you?
+23.04,23.92,patient,Edith is fine.
+23.92,27.68,doctor,"Edith is fine? Alright. So, Edith, what brings you in here today?"
+28.4,100.32,patient,"I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.
+Oh, right. Can you tell me more?
+Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling warm or more tired. It's gotten to a place where if I, no matter if I run to the store or you know, just go do something, I'm warm right out and when I get home, I just, I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that. I just feel blah.
+I don't know, there's no other way to put it. I just feel blah
+and I feel like something's wrong.
+And you told me that it's been going on for six to eight months, is that right?
+I'm guessing. It's been about that long that it's been, that I started feeling tired, you know, and then started to get more and more and more.
+Okay. So, it's just this tiredness and like you just feel ill, is that right?
+Yeah, and just losing that weight. You're just losing a lot of weight. Yeah, yeah.
+How many pounds do you think you've lost?
+Okay, I need to lose weight anyway. So, at the beginning when it first started,
+I was, you know, I was kind of happy but it continued and I wasn't doing anything.
+I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything.
+I'm not even doing the exercise I used to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore, so you can't really like you feel the energy to do it, is that right? Okay, I'm sorry.
+I just got womanly right down. Okay, I'm really sorry to hear that.
+Thank you. Along with this tiredness, do you feel any pain anywhere?
+No, I don't think I do. No? Okay, okay. And all right, have you noticed that you're like,
+when you maybe like you take yourself with something, do you see like you're bruising very easily? No, I haven't seen that.
+Okay, and are you eating all right? I am. You're eating? Yeah.
+And normal, no, you're not like skipping meals, right? No. No?"
+199.44,201.2,doctor,"What I would like to do now is just ask you a few more questions about your past medical history, if that's okay with you."

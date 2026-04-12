@@ -1,205 +1,218 @@
 {
   "audio_path": "doctor_patient_example2.wav",
   "language": "en",
-  "model": "medium.en",
+  "model_name": "medium.en",
+  "engine": "openai-whisper",
   "segments": [
     {
-      "id": 0,
       "start": 0.0,
-      "end": 12.32,
-      "text": " So, hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores, she's also a medical student."
+      "end": 10.4,
+      "text": "Hello. My name is Daniela Gonzalez. I'm a second year medical student and this is my colleague, Napalia Flores.",
+      "source": "whisper"
     },
     {
-      "id": 1,
-      "start": 12.32,
+      "start": 10.4,
       "end": 16.96,
-      "text": " And today we're just gonna find out what brought you in here today."
+      "text": "She's also a medical student. And today we're just gonna find out what brought you in here today.",
+      "source": "whisper"
     },
     {
-      "id": 2,
       "start": 16.96,
-      "end": 20.64,
-      "text": " So, is your name Edith Riswell?"
+      "end": 20.72,
+      "text": "So, is your name Edith Riswell?",
+      "source": "whisper"
     },
     {
-      "id": 3,
-      "start": 20.64,
+      "start": 20.72,
       "end": 21.44,
-      "text": " Yes, it is."
+      "text": "Yes, it is.",
+      "source": "whisper"
     },
     {
-      "id": 4,
       "start": 21.44,
-      "end": 22.96,
-      "text": " Yes, how would you like me to refer you?"
+      "end": 23.04,
+      "text": "Yes. How would you like me to refer you?",
+      "source": "whisper"
     },
     {
-      "id": 5,
-      "start": 22.96,
-      "end": 23.84,
-      "text": " Edith is fine."
+      "start": 23.04,
+      "end": 23.92,
+      "text": "Edith is fine.",
+      "source": "whisper"
     },
     {
-      "id": 6,
-      "start": 23.84,
-      "end": 27.6,
-      "text": " Edith is fine? Alright. So, Edith, what brings you in here today?"
+      "start": 23.92,
+      "end": 27.68,
+      "text": "Edith is fine? Alright. So, Edith, what brings you in here today?",
+      "source": "whisper"
     },
     {
-      "id": 7,
-      "start": 28.400000000000002,
+      "start": 28.4,
       "end": 38.0,
-      "text": " I'm just, I'm just feeling terrible and I'm losing too much weight for no reason."
+      "text": "I'm just, I'm just feeling terrible and I'm losing too much weight for no reason.",
+      "source": "whisper"
     },
     {
-      "id": 8,
-      "start": 38.64,
+      "start": 38.72,
       "end": 41.04,
-      "text": " Oh, right. Can you tell me more?"
+      "text": "Oh, right. Can you tell me more?",
+      "source": "whisper"
     },
     {
-      "id": 9,
-      "start": 42.400000000000006,
+      "start": 42.4,
       "end": 52.08,
-      "text": " Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling"
+      "text": "Yeah, it's been probably, oh I don't know, maybe six or eight months that I've just been feeling",
+      "source": "whisper"
     },
     {
-      "id": 10,
       "start": 53.04,
       "end": 60.64,
-      "text": " more and more tired. It's gotten to a place where if I, no matter if I run to the store"
+      "text": "warm or more tired. It's gotten to a place where if I, no matter if I run to the store",
+      "source": "whisper"
     },
     {
-      "id": 11,
       "start": 62.16,
-      "end": 67.67999999999999,
-      "text": " or, you know, just go do something, I'm, I'm warm right out and when I get home I just,"
+      "end": 68.64,
+      "text": "or you know, just go do something, I'm warm right out and when I get home, I just, I'm right down on",
+      "source": "whisper"
     },
     {
-      "id": 12,
-      "start": 67.67999999999999,
-      "end": 78.24,
-      "text": " I'm right down on the couch. So, I'm skipping extra stuff, social events and things like that."
+      "start": 68.64,
+      "end": 79.28,
+      "text": "the couch. So, I'm skipping extra stuff, social events and things like that. I just feel blah.",
+      "source": "whisper"
     },
     {
-      "id": 13,
-      "start": 78.24,
-      "end": 82.39999999999999,
-      "text": " I just feel blah. I don't, there's no other way to put it. I just feel blah"
+      "start": 79.76,
+      "end": 82.4,
+      "text": "I don't know, there's no other way to put it. I just feel blah",
+      "source": "whisper"
     },
     {
-      "id": 14,
-      "start": 83.91999999999999,
+      "start": 83.92,
       "end": 85.36,
-      "text": " and I feel like something's wrong."
+      "text": "and I feel like something's wrong.",
+      "source": "whisper"
     },
     {
-      "id": 15,
-      "start": 87.83999999999999,
+      "start": 87.84,
       "end": 91.28,
-      "text": " And you told me that it's been going on for six to eight months, is that right?"
+      "text": "And you told me that it's been going on for six to eight months, is that right?",
+      "source": "whisper"
     },
     {
-      "id": 16,
       "start": 91.28,
-      "end": 93.67999999999999,
-      "text": " I'm guessing. It's been about that long that it's been,"
+      "end": 93.68,
+      "text": "I'm guessing. It's been about that long that it's been,",
+      "source": "whisper"
     },
     {
-      "id": 17,
-      "start": 94.32,
+      "start": 94.32000000000001,
       "end": 100.32,
-      "text": " that I started feeling tired, you know, and then started to get more and more and more."
+      "text": "that I started feeling tired, you know, and then started to get more and more and more.",
+      "source": "whisper"
     },
     {
-      "id": 18,
-      "start": 101.27999999999999,
-      "end": 108.24,
-      "text": " Okay, so it's just this tiredness and like you just feel ill, is that right?"
+      "start": 101.36,
+      "end": 108.24000000000001,
+      "text": "Okay. So, it's just this tiredness and like you just feel ill, is that right?",
+      "source": "whisper"
     },
     {
-      "id": 19,
       "start": 108.24,
       "end": 111.6,
-      "text": " Yeah and just losing that weight. You're just losing a lot of weight. Yeah, yeah."
+      "text": "Yeah, and just losing that weight. You're just losing a lot of weight. Yeah, yeah.",
+      "source": "whisper"
     },
     {
-      "id": 20,
       "start": 111.6,
       "end": 113.36,
-      "text": " How many pounds do you think you've lost?"
+      "text": "How many pounds do you think you've lost?",
+      "source": "whisper"
     },
     {
-      "id": 21,
       "start": 114.96,
-      "end": 122.39999999999999,
-      "text": " Okay, I need to lose weight anyway. So, at the beginning when it first started, I was,"
+      "end": 121.11999999999999,
+      "text": "Okay, I need to lose weight anyway. So, at the beginning when it first started,",
+      "source": "whisper"
     },
     {
-      "id": 22,
-      "start": 123.52,
+      "start": 122.0,
       "end": 128.72,
-      "text": " you know, I was kind of happy but it continued and I wasn't doing anything."
+      "text": "I was, you know, I was kind of happy but it continued and I wasn't doing anything.",
+      "source": "whisper"
     },
     {
-      "id": 23,
-      "start": 128.96,
-      "end": 135.52,
-      "text": " I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything."
+      "start": 129.92,
+      "end": 136.48,
+      "text": "I think we've gotten almost to 30 or 35 pounds. I mean, it's a lot and I'm not doing anything.",
+      "source": "whisper"
     },
     {
-      "id": 24,
-      "start": 135.52,
-      "end": 141.76,
-      "text": " You're not doing anything, you know, diet. No, actually, I'm not even doing the exercise I used"
+      "start": 136.48,
+      "end": 142.56,
+      "text": "You're not doing anything, you know, diet. No, actually I'm not even doing the exercise I used",
+      "source": "whisper"
     },
     {
-      "id": 25,
-      "start": 141.76,
-      "end": 150.8,
-      "text": " to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,"
+      "start": 142.56,
+      "end": 151.67999999999998,
+      "text": "to do. I just, I don't have to get up and go to do it. You can't really like do exercise anymore,",
+      "source": "whisper"
     },
     {
-      "id": 26,
-      "start": 150.8,
-      "end": 156.07999999999998,
-      "text": " so you can't really like, you feel the energy to do it, is that right? Okay, I'm sorry."
+      "start": 151.67999999999998,
+      "end": 156.95999999999998,
+      "text": "so you can't really like you feel the energy to do it, is that right? Okay, I'm sorry.",
+      "source": "whisper"
     },
     {
-      "id": 27,
-      "start": 156.16000000000003,
-      "end": 164.56,
-      "text": " Okay, I'm sorry. I'm really sorry to hear that. Along with this tiredness, do you feel any pain"
+      "start": 156.95999999999998,
+      "end": 161.76,
+      "text": "I just got womanly right down. Okay, I'm really sorry to hear that.",
+      "source": "whisper"
     },
     {
-      "id": 28,
-      "start": 164.56,
-      "end": 174.96,
-      "text": " anywhere? No, I don't think I do. Okay, and all right, have you noticed that you're like,"
+      "start": 161.76,
+      "end": 164.95999999999998,
+      "text": "Thank you. Along with this tiredness, do you feel any pain anywhere?",
+      "source": "whisper"
     },
     {
-      "id": 29,
-      "start": 174.96,
-      "end": 178.8,
-      "text": " when you maybe like you pick yourself with something, do you see like you're bruising"
+      "start": 166.48,
+      "end": 174.95999999999998,
+      "text": "No, I don't think I do. No? Okay, okay. And all right, have you noticed that you're like,",
+      "source": "whisper"
     },
     {
-      "id": 30,
-      "start": 179.20000000000002,
-      "end": 188.88000000000002,
-      "text": " easily? No. Okay, and are you eating all right? I am. You're eating? Yeah. And normal?"
+      "start": 174.95999999999998,
+      "end": 179.2,
+      "text": "when you maybe like you take yourself with something, do you see like you're bruising very",
+      "source": "whisper"
     },
     {
-      "id": 31,
-      "start": 188.88000000000002,
-      "end": 196.8,
-      "text": " No, you're not like skipping meals, right? No. No? Okay, all right. So, what I would like to do,"
+      "start": 179.2,
+      "end": 187.67999999999998,
+      "text": "easily? No, I haven't seen that. Okay, and are you eating all right? I am. You're eating? Yeah.",
+      "source": "whisper"
     },
     {
-      "id": 32,
-      "start": 196.8,
-      "end": 201.20000000000002,
-      "text": " I was just asking you a few more questions about your past medical history, if that's okay with you."
+      "start": 187.67999999999998,
+      "end": 195.2,
+      "text": "And normal, no, you're not like skipping meals, right? No. No? Okay, all right. So,",
+      "source": "whisper"
+    },
+    {
+      "start": 195.83999999999997,
+      "end": 199.44,
+      "text": "what I would like to do now is just ask you a few more questions about your past",
+      "source": "whisper"
+    },
+    {
+      "start": 199.44,
+      "end": 201.2,
+      "text": "medical history, if that's okay with you.",
+      "source": "whisper"
     }
   ]
 }

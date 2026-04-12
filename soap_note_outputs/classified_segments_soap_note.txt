@@ -1,38 +1,13 @@
-SOAP NOTE
+SOAP Note
 
-Encounter
-  encounter_id: classified_segments
-  date: Not documented
-  clinician: Daniela Gonzalez
-  patient: Edith Riswell
+Subjective:
+Patient Edith Riswell presents with persistent fatigue, feeling ill, unintentional weight loss of approximately 30-35 pounds over the course of 6-8 months, and reports feeling 'blah'. The patient denies any associated pain, bruising easily, or skipping meals. The patient has been avoiding social events due to fatigue.
 
-Subjective
-  chief complaint: Feeling terrible and losing weight for no reason
-  HPI summary: Patient reports feeling tired, ill, and losing significant amount of weight (30-35 lbs) over the past six to eight months. No pain, bruising, or skipping meals reported.
-  medications mentioned: Not documented
-  allergies mentioned: Not documented
-  relevant history: Not documented
-  patient reported symptoms: Tiredness; Feeling ill; Weight loss
-  patient denied symptoms: Not documented
+Objective:
+Vital signs not recorded. Physical examination not documented in transcript.
 
-Objective
-  vitals: bp=Not documented, hr=Not documented, temp=Not documented, rr=Not documented, spo2=Not documented, weight=Not documented
-  exam findings: Not documented
-  tests/results discussed: Not documented
+Assessment:
+The patient's symptoms are consistent with non-specific malaise and unexplained weight loss, which may be indicative of various underlying conditions such as infectious diseases, metabolic disorders, or neoplasms. The lack of associated pain, bruising, and changes in appetite suggest that the etiology is not primarily hematologic.
 
-Assessment
-  clinician impression: Possible unexplained weight loss and fatigue
-  problems addressed: Tiredness; Weight loss
-
-Plan
-  medications started/changed: Not documented
-  tests ordered: Not documented
-  referrals: Not documented
-  patient instructions: Not documented
-  follow up: Not documented
-  return precautions: Not documented
-
-Quality
-  missing sections: assessment; objective; plan
-  uncertain fields: subjective.hpi_summary
-  notes: Not documented
+Plan:
+Further evaluation is needed to identify the cause of the patient's symptoms. Recommendations include complete blood count (CBC), comprehensive metabolic panel (CMP), thyroid function tests, and potential imaging studies such as a computed tomography (CT) scan or magnetic resonance imaging (MRI). The patient should be encouraged to maintain a balanced diet and engage in light physical activity as tolerated.

@@ -9,4 +9,12 @@ dependencies = [
     "jupyter>=1.1.1",
     "openai-whisper>=20250625",
     "python-dotenv>=1.2.2",
+    "typer>=0.12.0",
+    "rich>=13.7.0",
+    "requests>=2.31.0",
+    "pandas>=2.2.0",
 ]
+
+[project.scripts]
+whisper-app = "whisper_app.cli:app"
+
